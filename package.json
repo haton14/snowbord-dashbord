@@ -13,7 +13,6 @@
     "typegen": "wrangler types"
   },
   "dependencies": {
-    "@freee_jp/vibes": "^100.1.0",
     "@remix-run/cloudflare": "^2.8.0",
     "@remix-run/cloudflare-pages": "^2.8.0",
     "@remix-run/react": "^2.8.0",

@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import { Breadcrumbs } from '@freee_jp/vibes';
 
 export const meta: MetaFunction = () => {
   return [
@@ -14,12 +13,6 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <Breadcrumbs
-        links={[
-          { title: '取引', url: '/hub_pages/deals' },
-          { title: '自動で経理', url: '/wallet_txns/stream' },
-        ]}
-      />
       <h1>Welcome to Remix (with Vite and Cloudflare)</h1>
       <ul>
         <li>
